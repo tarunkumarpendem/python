@@ -1,4 +1,4 @@
-### Python Course by Cisco:
+# Python Course by Cisco:
 ---------------------------
 Use the below link and login to access the cource.
 
@@ -69,8 +69,8 @@ Use the below link and login to access the cource.
 * The traditional implementation of Python, called `CPython`, is Guido van Rossum's reference version of the Python computing language, and it's most often called just `Python`. When you hear the name `CPython`, it's most probably used to distinguish it from other, non-traditional, alternative implementations.
 * `PSF` - `Python Software Foundation`.
 
-# Python Implementations:
--------------------------
+### Python Implementations:
+---------------------------
   * `Cython` (Using C language in Python for Large and Complex Mathematical operations)
   * `Jython` ( Using Python in java language)
   * `PyPy(RPython)` (Using Python in Python i.e. representing Python environment written in Python like language Restricted Python(RPython) )
