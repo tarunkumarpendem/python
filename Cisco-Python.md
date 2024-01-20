@@ -2,7 +2,7 @@
 ---------------------------
 Use the below link and login to access the cource.
 
-[Login](https://skillsforall.com/)
+**[Login](https://skillsforall.com/)**
 
 * The language which computers use is called as `Machine Language`.
 * It(computer) responds only to a predetermined set of known `commands`.
@@ -29,7 +29,8 @@ Use the below link and login to access the cource.
         *  The interpreter will inform you where the error is located and what caused it, but it follows our exact intentions.
         *  If the line looks good, the interpreter tries to execute it (note: each line is usually executed separately, so the trio `read-check-execute` can be repeated many times - more times than the actual number of lines in the source file, as some parts of the code may be executed more than once).
         *  It is also possible that a significant part of the code may be executed successfully before the interpreter finds an error. This is normal behavior in this execution model.
-    ![preview](./images/python1.png)  
+
+![preview](./Images/python1.png)  
   
 
 ### Compilation:
@@ -70,8 +71,8 @@ Use the below link and login to access the cource.
 
 * Python Implementations:
 -------------------------
-    * Cython (Using C language in Python for Large and Complex Mathematical operations)
-    * Jython ( Using Python in java language)
-    * PyPy(RPython) (Using Python in Python i.e. representing Python environment written in Python like language Restricted Python(RPython) )
-    * MicroPython ( This is optimized to run on microcontrollers)
-    * CircuitPython ( Used MicroPython to create this and used to run on microcontrollers hardware).
+  * `Cython` (Using C language in Python for Large and Complex Mathematical operations)
+  * `Jython` ( Using Python in java language)
+  * `PyPy(RPython)` (Using Python in Python i.e. representing Python environment written in Python like language Restricted Python(RPython) )
+  * `MicroPython` ( This is optimized to run on microcontrollers)
+  * `CircuitPython` ( Used MicroPython to create this and used to run on microcontrollers hardware).
