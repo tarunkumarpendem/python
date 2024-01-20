@@ -1,5 +1,8 @@
 ### Python Course by Cisco:
 ---------------------------
+Use the below link and login to access the cource.
+
+[Login](https://skillsforall.com/)
 
 * The language which computers use is called as `Machine Language`.
 * It(computer) responds only to a predetermined set of known `commands`.
@@ -17,7 +20,7 @@
 *  There are two different ways of transforming a program from a high-level programming language into machine language:
    *  `Compilation`:
       --------------
-        *  The source program is translated once (however, this act must be repeated each time you modify the source code) by getting a file (e.g., an .exe file if the code is intended to be run under MS Windows) containing the machine code. Now you can distribute the file worldwide; the program that performs this translation is called a `Compiler` or `Translator`.
+        *  The source program is translated once (however, this act must be repeated each time you modify the source code) by getting a file (e.g., an .exe file if the code is intended to be run under MS Windows) containing the machine code. Now you can distribute the file worldwide; the program that performs this translation is called a `Compiler` or `Translator`.        
         *  If the compiler finds an error, it finishes its work immediately. The only result in this case is an error message.
    *  `Interpretation`:
       -----------------
@@ -26,6 +29,7 @@
         *  The interpreter will inform you where the error is located and what caused it, but it follows our exact intentions.
         *  If the line looks good, the interpreter tries to execute it (note: each line is usually executed separately, so the trio `read-check-execute` can be repeated many times - more times than the actual number of lines in the source file, as some parts of the code may be executed more than once).
         *  It is also possible that a significant part of the code may be executed successfully before the interpreter finds an error. This is normal behavior in this execution model.
+    [!preview](./images/python1.png)  
   
 
 ### Compilation:
@@ -55,3 +59,19 @@
 
 * Python is an `Interpreted language`. If you want to program in Python, you'll need the Python interpreter. You won't be able to run your code without it.
 * Languages designed to be utilized in the interpretation manner are often called `scripting languages`, while the source programs encoded using them are called `scripts`.
+* Python was created by `Guido van Rossum`.
+* There are two main kinds of Python, called `Python 2` and `Python 3`. 
+* `Python 2` is an older version of the original Python.
+* `Python 3` is the newer (or to be more precise, the current) version of the language.
+* These two versions of Python aren't compatible with each other. `Python 2` scripts won't run in a `Python 3` environment and vice versa, so if you want the old `Python 2` code to be run by a `Python 3` interpreter, the only possible solution is to rewrite it, not from scratch, but you do have to revise all the code to find all possible incompatibilities. Unfortunately, this process cannot be fully automatized.
+* All the newer versions of `Python 3` are backward compatible with the previous versions of `Python 3`.
+* The traditional implementation of Python, called `CPython`, is Guido van Rossum's reference version of the Python computing language, and it's most often called just `Python`. When you hear the name `CPython`, it's most probably used to distinguish it from other, non-traditional, alternative implementations.
+* `PSF` - `Python Software Foundation`.
+
+* Python Implementations:
+-------------------------
+    * Cython (Using C language in Python for Large and Complex Mathematical operations)
+    * Jython ( Using Python in java language)
+    * PyPy(RPython) (Using Python in Python i.e. representing Python environment written in Python like language Restricted Python(RPython) )
+    * MicroPython ( This is optimized to run on microcontrollers)
+    * CircuitPython ( Used MicroPython to create this and used to run on microcontrollers hardware).
