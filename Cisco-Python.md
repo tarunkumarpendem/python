@@ -82,8 +82,8 @@ Use the below link and login to access the cource.
 ------------------
 * In all linux OS's the `Python3` is already installed as some of the components already uses python in it.
 * You can use below documentation to download `Python3` for non-linux OS's( eg: Windows). Or you can use other methods to install Python3 of your choice.
-* Installing Python3 using chocolatey in windows `choco install python --version=3.10.11`
-* Installing chocolatey in windows `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+* **Installing Python3 using chocolatey in windows** `choco install python --version=3.10.11`
+* **Installing chocolatey in windows** `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
 
 [Download Python3](https://www.python.org/downloads/.)
 
