@@ -71,8 +71,21 @@ Use the below link and login to access the cource.
 
 ### Python Implementations:
 ---------------------------
-  * `Cython` (Using C language in Python for Large and Complex Mathematical operations)
+  * `Cython` (Using C language in Python for Large and Complex Mathematical operations and It's the default, reference implementation of Python, written in the C language)
   * `Jython` ( Using Python in java language)
   * `PyPy(RPython)` (Using Python in Python i.e. representing Python environment written in Python like language Restricted Python(RPython) )
   * `MicroPython` ( This is optimized to run on microcontrollers)
   * `CircuitPython` ( Used MicroPython to create this and used to run on microcontrollers hardware).
+
+
+#### Installation:
+------------------
+* In all linux OS's the `Python3` is already installed as some of the components already uses python in it.
+* You can use below documentation to download `Python3` for non-linux OS's( eg: Windows). Or you can use other methods to install Python3 of your choice.
+* Installing Python3 using chocolatey in windows `choco install python --version=3.10.11`
+* Installing chocolatey in windows `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+
+[Download Python3](https://www.python.org/downloads/.)
+
+* Besides its many useful components, the Python3 standard installation contains a very simple but extremely useful application named `IDLE`. 
+* `IDLE: Integrated Development and Learning Environment.`
