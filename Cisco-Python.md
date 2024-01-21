@@ -89,3 +89,89 @@ Use the below link and login to access the cource.
 
 * Besides its many useful components, the Python3 standard installation contains a very simple but extremely useful application named `IDLE`. 
 * `IDLE: Integrated Development and Learning Environment.`
+
+```python
+print("Hello, World!")
+```
+
+* In the above program the word `print` is the `function` 
+* A function may have:
+    * an effect
+    * A result
+    * There's also a third, very important, function component ‒ the `argument(s)`.
+
+* A function invocation is one of many possible kinds of Python instruction.
+* Python's syntax is quite specific in this area. Unlike most programming languages, Python requires that there cannot be more than one instruction in a line.
+* A line can be empty (i.e., it may contain no instruction at all) but it must not contain two, three or more instructions. This is strictly prohibited. As shown below.
+
+* This is not allowed in python:
+--------------------------------
+
+```python
+print("Hi")     print("Hello")      print("when")       print("where")  
+```
+
+* This is allowed in python:
+----------------------------
+
+```python
+print("Hi")
+print("Hello")
+print("when")
+print("where")
+```
+
+Note:
+----
+* when we try to use print function without any arguments it will render just empty line.  It outputs a newline.
+
+
+* We can use above note to print the data in a new line. However we can `\n` to do this which is recommended.
+
+```python
+print("Hi\nI am Tarun\nI am a DevOps Engineer")
+```
+
+* Here, The backslash `(\)` has a very special meaning when used inside strings ‒ this is called the `escape character`.
+* The word escape should be understood specifically ‒ it means that the series of characters in the string escapes for the moment (a very short moment) to introduce a special inclusion.
+* The letter `n` placed after the backslash comes from the word `newline`.
+* Both the `(backslash)` and the `n` form a special symbol named a `newline character`, which urges the console to start a new output line.
+
+
+### Positional Arguments:
+-------------------------
+* The way in which we are passing the arguments into the `print()` function is the most common in Python, and is called the `positional way`, these arguments are called `positional arguments`. This name comes from the fact that the meaning of the argument is dictated by its position (e.g., the second argument will be outputted after the first, not the other way round).
+
+
+### Keyword Arguments:
+----------------------
+* Python offers another mechanism for the passing of arguments, which can be helpful when you want to convince the print() function to change its behavior a bit. The mechanism is called `keyword arguments`.
+* The meaning of these arguments is taken not from its location (position) but from the special word (keyword) used to identify them.
+* The print() function has two keyword arguments that you can use for your purposes. The first is called `end`.
+
+```python
+print("My name is", "Tarun.", end=" ")
+print("I am learning Python.")
+```
+
+* In order to use it, it is necessary to know some rules:
+    * A `keyword argument` consists of three elements: 
+        * a keyword identifying the argument (`end` here) 
+        * an equal sign `(=)` 
+        * a value assigned to that argument
+    * Any keyword arguments have to be put `after the last positional argument` (this is very important)
+    * In the above example, we have made use of the `end` keyword argument, and set it to a string containing one space.
+
+* The `print()` function separates its outputted arguments with spaces. This behavior can be changed, too. The keyword argument that can do this is named `sep` (as in separator), which is the second keyword argument of print() function. 
+
+```python
+print("My", "name", "is", "Tarun", "Python.", sep="-")
+```
+* In the above The `print()` function now uses a `dash`, instead of a space, to separate the outputted arguments.
+
+* Both keyword arguments may be mixed in one invocation
+
+```python
+print("My", "name", "is", sep="_", end="*")
+print("Tarun", "Python.", sep="*", end="*\n")
+```
