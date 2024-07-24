@@ -103,9 +103,6 @@ print(s)
 # Output variables
 ##################################
 
-
-
-
 def print_Values(tableno, orderno, items, persons):
     body = {}
     if tableno == "1" :
